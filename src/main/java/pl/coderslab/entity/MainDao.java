@@ -5,12 +5,13 @@ import java.util.Arrays;
 
 public class MainDao {
     public static void main(String[] args) throws SQLException {
+        DBUtil.getConnection();
 //        create
-        UserDao userDao = new UserDao();
-        User user = new User("Erick", "erick@gmail.com", "erick1");
-        System.out.println(user.getId());
-        userDao.create(user);
-        System.out.println(user.getId());
+//        UserDao userDao = new UserDao();
+//        User user = new User("Erick", "erick@gmail.com", "erick1");
+//        System.out.println(user.getId());
+//        userDao.create(user);
+//        System.out.println(user.getId());
 
 //        update
 //        User user = new User("Tomek", "tomek@gmail.com", "tomek1");
